@@ -28,7 +28,12 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add output/weather_data.csv output/status.log # Add the output folder contents
+          # Check if the output directory exists and add its contents
+          if [ -d "output" ]; then
+            git add output/
+          else
+            echo "Output directory does not exist, skipping git add for output/"
+          fi
           git diff-index --quiet HEAD || (git commit -a -m "updated logs and weather data" --allow-empty)
           
       - name: push changes
