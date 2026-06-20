@@ -4492,3 +4492,5 @@
 2026-06-19 22:55:07,626 - __main__ - ERROR - Error fetching weather data: 429 Client Error: Too Many Requests for url: https://weather.talkpython.fm/api/weather?city=Berlin&country=DE
 2026-06-20 00:01:06,110 - __main__ - INFO - Token value: 
 2026-06-20 00:01:06,797 - __main__ - ERROR - Error fetching weather data: 429 Client Error: Too Many Requests for url: https://weather.talkpython.fm/api/weather?city=Berlin&country=DE
+2026-06-20 04:38:58,065 - __main__ - INFO - Token value: 
+2026-06-20 04:38:58,667 - __main__ - ERROR - Error fetching weather data: 429 Client Error: Too Many Requests for url: https://weather.talkpython.fm/api/weather?city=Berlin&country=DE
